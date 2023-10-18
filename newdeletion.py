@@ -5,7 +5,7 @@ class Node:
         self.right = None
 
 class BST:
-    def __init(self):
+    def __init__(self):
         self.root = None
 
     def insert(self, key):
