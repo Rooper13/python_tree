@@ -20,7 +20,7 @@ class QuadTreeNode:
         else:
             if not self.is_divided:
                 self.subdivide()
-                self.is_divided = True
+                self.is_divided = True  
             return self.insert_into_children(point)
 
     def subdivide(self):
