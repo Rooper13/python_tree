@@ -32,5 +32,6 @@ if __name__ == '__main__':
     r = insert(r, 40)
     r = insert(r, 60)
     r = insert(r, 70)
+    r = insert(r, 25)
 
     inorder(r)
